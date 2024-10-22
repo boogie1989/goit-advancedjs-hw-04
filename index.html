@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Advanced HW4</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="module" crossorigin src="/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-E1y4wwGd.js">
+    <link rel="stylesheet" crossorigin href="/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CNwUfylT.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="search">
+          <form class="form">
+            <input
+              type="text"
+              class="input-search"
+              name="query"
+              placeholder="Search images..."
+              required
+            />
+            <button type="submit" name="btnSubmit" class="btn btn-submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <ul class="images-list hidden"></ul>
+        <button
+          type="button"
+          name="btnLoadMore"
+          class="btn btn-load-mode hidden"
+        >
+          Load more
+        </button>
+        <span class="end-line hidden"
+          >We're sorry, but you've reached the end of search results.</span
+        >
+        <span class="loader hidden">Loading</span>
+      </div>
+    </main>
+    <!-- Scripts -->
+  </body>
+</html>
